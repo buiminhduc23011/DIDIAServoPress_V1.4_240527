@@ -1,0 +1,482 @@
+﻿/*
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace DIAServoPress
+{
+    static class Ether_Addr
+    {
+        //Panel
+        public const string BufferNum = "D4998";   //Panel
+
+        public const string ST_Config = "1";
+        public const string ST_Unit = "16";
+
+        public const string StartCalib = "M0";
+        public const string NoHMI = "M2";
+        public const string Y0_ExReady = "M30";
+        public const string Y1_ExWaiting = "M31";
+        public const string Y2_ExAlarm = "M32";
+        public const string Y3_ExOKNG = "M33";
+        public const string PC_Panel = "M43";
+        public const string PC_RecipeChanged = "M44";
+        public const string PC_RecipeToChange = "M45";
+        public const string X0_ExOn = "M50";
+        public const string X1_ExTrigger = "M51";
+        public const string X2_ExAlmRst = "M52";
+        public const string X3_ExSafeSignal = "M53";
+        public const string X4_ExRecipe0 = "M54";
+        public const string X5_ExRecipe1 = "M55";
+        public const string X6_ExRecipe2 = "M56";
+        public const string X7_ExRecipe3 = "M57";
+        public const string X20_ExRecipe4 = "M58";
+        public const string X21_ExRecipe5 = "M59";
+        public const string X22_ExRecipe6 = "M60";
+        public const string X23_ExRecipe7 = "M61";
+        public const string X30_IO_0 = "M62";
+        public const string X31_IO_1 = "M63";
+        public const string X32_IO_2 = "M64";
+        public const string X33_IO_3 = "M65";
+        public const string X34_IO_4 = "M66";
+        public const string X35_IO_5 = "M67";
+        public const string X36_IO_6 = "M68";
+        public const string X37_IO_7 = "M69";
+        public const string SetIP = "M81";
+        public const string SetRS485 = "M82";
+        public const string TimeScale = "M83";
+        public const string ChangeUnit = "M87";
+        public const string Y30_IO_0 = "M90";
+        public const string Y31_IO_1 = "M91";
+        public const string Y32_IO_2 = "M92";
+        public const string Y33_IO_3 = "M93";
+        public const string Y34_IO_4 = "M94";
+        public const string Y35_IO_5 = "M95";
+        public const string Y36_IO_6 = "M96";
+        public const string Y37_IO_7 = "M97";
+        public const string OutputTest = "M107";
+        public const string EMS = "M303";
+        public const string Trigger_R = "M304";
+        public const string Trigger_L = "M305";
+        public const string Reset = "M306";
+        public const string LightCurtain = "M307";
+        public const string ExtCtrl = "M308";
+        public const string WriteData = "M500";
+        public const string WriteRecipe = "M503";
+
+
+        //斷電保持區 M512~M767
+        public const string NGAlarm = "M516";
+        public const string NoCurtain = "M517";
+        public const string PLCRecipe = "M519";
+        public const string DIAServoPressKey = "M525";
+        public const string OpRulerStartPts = "M526";
+        public const string OpticalRuler = "M532";
+        public const string HMI_ExCtrl_Rec = "M720";
+        //斷電保持區END
+
+        public const string JogInch = "M800";
+        public const string JogDown = "M801";
+        public const string JogUp = "M802";
+        public const string EnterCalibValue = "M804";
+        public const string SingleCalibFinished = "M805";
+        public const string AllCalibFinished = "M806";
+        public const string InitialStatus = "M807";
+        public const string HMI_CMD_OnOff = "M808";
+        public const string TurnOnStatus = "M808";
+        public const string HMI_CMD_Initialize = "M809";
+        public const string Initialization = "M809";
+        public const string HMI_CMD_ManualCtrl = "M810";
+        public const string BuzzMute = "M812";
+        public const string CMD_GoHome = "M814";
+        public const string GoingOriginPos = "M818";
+        public const string Uninitialized = "M819";
+        public const string HMI_ExCtrl = "M820";
+        public const string Initializing = "M821";
+        public const string AlmRst = "M822";
+        public const string AlarmLight = "M823";
+        public const string Buzz = "M824";
+        public const string KeepPress = "M828";
+        public const string HMI_Press = "M830";
+        public const string Origin = "M831";
+        public const string UpPosLimitStatus = "M833";
+        public const string LowPosLimitStatus = "M834";
+        public const string MES_Ctrl = "M835";
+        public const string MES = "M836";
+
+        /// <summary>
+        /// ////////////////
+        /// </summary>
+
+        public const string Ruler_X = "D96";
+        public const string Ruler_Y = "D98";
+        public const string RecipeChanged = "D143";
+        public const string AlmMessage = "D150";
+        public const string WorkOrder1 = "D155";
+        public const string WorkOrder2 = "D156";
+        public const string WorkOrder3 = "D157";
+        public const string WorkOrder4 = "D158";
+        public const string WorkOrder5 = "D159";
+        public const string WorkOrder6 = "D160";
+        public const string WorkOrder7 = "D161";
+        public const string LiveDataD2 = "D200";
+        public const string LivePos = "D200";
+        public const string LiveForce = "D202";
+        public const string LiveVel = "D204";
+        public const string LiveStatus = "D206";
+        public const string LiveCurrentMode = "D208";
+        public const string PressedPos = "D210";
+        public const string PressedForce = "D212";
+        public const string LiveStandbyTime = "D214";
+        public const string LivePressTime = "D216";
+        public const string LiveProductTime = "D218";
+        public const string LiveProductAmount = "D222";
+        public const string LiveOKAmount = "D224";
+        public const string LiveNGAmount = "D226";
+        public const string TargetPressPos = "D232";
+        public const string TargetPressForce = "D234";
+        public const string TargetUpperForceLimit = "D238";
+        public const string TargetUpperPosLimit = "D240";
+        public const string LiveStep = "D242";
+        public const string RecipeName1 = "D245";
+        public const string RecipeName2 = "D246";
+        public const string RecipeName3 = "D247";
+        public const string RecipeName4 = "D248";
+        public const string RecipeName5 = "D249";
+        public const string RecipeName6 = "D250";
+        public const string RecipeName7 = "D251";
+        public const string MotorErrorNum = "D262";
+        public const string LiveOKNG = "D263";
+        public const string TargetStandbyPos = "D268";
+        public const string Manual_ContactPos = "D277";
+        public const string Manual_MaxPos = "D279";
+        public const string Manual_ForceAtMaxPos = "D281";
+        public const string Manual_MaxForce = "D283";
+        public const string Manual_PosAtMaxForce = "D285";
+        public const string LiveDataD3 = "D300";
+        public const string ExCtrlStatus = "D348";
+        public const string IO_Comm = "D349";
+
+        //斷電保持區 D408~D599
+        public const string LiveRecipeNum = "D430";
+        public const string LiveProductAmountM = "D432";
+        public const string LiveOKAmountM = "D434";
+        public const string LiveNGAmountM = "D436";
+        public const string PIDpara = "D454";
+        public const string CalibYear = "D459";
+        public const string CalibMonth = "D460";
+        public const string CalibDay = "D461";
+        public const string PressedAmount = "D474";
+        public const string PressedAmountLimit = "D476";
+        public const string MaxStroke = "D478";
+        public const string CalibAmount = "D480";
+        public const string CalibValue = "D482";
+        public const string JogForceLimitBase = "D484";
+        public const string InchDist = "D486";
+        public const string JogVel = "D488";
+        public const string GoHomeVel = "D490";
+        public const string ForceUnit = "D492";
+        public const string Unit = "D492";
+        public const string Type = "D495";
+        public const string MachineLimitBase = "D496";
+        public const string ForceType = "D495";
+        public const string StandardType = "D498";
+        public const string ExternalCtrl = "D508";
+        public const string JogForceLimit = "D512";
+        public const string ForceLimit = "D514";
+        public const string TorqueLimit = "D520";
+        public const string SoftPLimit = "D524";
+        public const string SoftNLimit = "D526";
+        public const string OriginOffset = "D530";
+        public const string OpticalRulerVel = "D533";
+        public const string PressPosSelect = "D535";
+        public const string PressForceSelect = "D537";
+        public const string IP1 = "D551";
+        public const string IP2 = "D552";
+        public const string Station = "D554";
+        public const string BaudRate = "D555";
+        public const string DataLength = "D556";
+        public const string Parity = "D557";
+        public const string StopBit = "D558";
+        public const string AR = "D559";
+        public const string OpRulerStartRaw = "D560";
+        public const string OpRulerStartPos = "D562";
+        public const string IOGoHomeSeq = "D564";
+        public const string IOGoHomeDelay = "D566";
+        public const string OpRulerPara = "D568";
+        //END
+
+        public const string LiveDataD6 = "D600";
+        public const string PressedPos1 = "D600";
+        public const string PressedPos2 = "D602";
+        public const string PressedPos3 = "D604";
+        public const string PressedPos4 = "D606";
+        public const string PressedPos5 = "D608";
+        public const string PressedPos6 = "D610";
+        public const string PressedPos7 = "D612";
+        public const string PressedPos8 = "D614";
+        public const string PressedPos9 = "D616";
+        public const string PressedPos10 = "D618";
+        public const string PressedForce1 = "D620";
+        public const string PressedForce2 = "D622";
+        public const string PressedForce3 = "D624";
+        public const string PressedForce4 = "D626";
+        public const string PressedForce5 = "D628";
+        public const string PressedForce6 = "D630";
+        public const string PressedForce7 = "D632";
+        public const string PressedForce8 = "D634";
+        public const string PressedForce9 = "D636";
+        public const string PressedForce10 = "D638";
+        public const string LiveDataD8 = "D800";
+        public const string DIAPress = "D806";
+        public const string Initialized = "D807";
+        public const string OnOff = "D808";
+        public const string PressStatus = "D815";
+        public const string Press = "D815";
+        public const string State = "D816";
+        public const string Connect = "D816";
+        public const string HMIScreenNum = "D950";
+        public const string HMIRecipeCtrl = "D955";
+        public const string RecipeCtrl = "D955";
+        public const string HMIRecipeNum = "D956";
+        public const string HMIEnhanceRecipeCtrl = "D958";
+        public const string EnhanceRecipeCtrl = "D958";
+        public const string HMIEnhancedRecipeNum = "D959";
+        public const string EnhancedRecipeNum = "D959";
+        public const string ScreenNum = "D950";
+
+
+        //斷電保持區 Write Recipe D2000~D3919
+        public const string CalibData = "D2000";
+        public const string CalibForce1 = "D2000";
+        public const string CalibForce2 = "D2002";
+        public const string CalibForce3 = "D2004";
+        public const string CalibForce4 = "D2006";
+        public const string CalibForce5 = "D2008";
+        public const string CalibForce6 = "D2010";
+        public const string CalibForce7 = "D2012";
+        public const string CalibForce8 = "D2014";
+        public const string CalibForce9 = "D2016";
+        public const string CalibForce10 = "D2018";
+        public const string CalibForce11 = "D2020";
+        public const string CalibForce12 = "D2022";
+        public const string CalibForce13 = "D2024";
+        public const string CalibForce14 = "D2026";
+        public const string CalibForce15 = "D2028";
+        public const string CalibForce16 = "D2030";
+        public const string CalibForce17 = "D2032";
+        public const string CalibForce18 = "D2034";
+        public const string CalibForce19 = "D2036";
+        public const string CalibForce20 = "D2038";
+
+        public const string CalibVoltage1 = "D2050";
+        public const string CalibVoltage2 = "D2052";
+        public const string CalibVoltage3 = "D2054";
+        public const string CalibVoltage4 = "D2056";
+        public const string CalibVoltage5 = "D2058";
+        public const string CalibVoltage6 = "D2060";
+        public const string CalibVoltage7 = "D2062";
+        public const string CalibVoltage8 = "D2064";
+        public const string CalibVoltage9 = "D2066";
+        public const string CalibVoltage10 = "D2068";
+        public const string CalibVoltage11 = "D2070";
+        public const string CalibVoltage12 = "D2072";
+        public const string CalibVoltage13 = "D2074";
+        public const string CalibVoltage14 = "D2076";
+        public const string CalibVoltage15 = "D2078";
+        public const string CalibVoltage16 = "D2080";
+        public const string CalibVoltage17 = "D2082";
+        public const string CalibVoltage18 = "D2084";
+        public const string CalibVoltage19 = "D2086";
+        public const string CalibVoltage20 = "D2088";
+
+        public const string CalibBackupData = "D2100";
+        public const string CalibForce1b = "D2100";
+        public const string CalibForce2b = "D2102";
+        public const string CalibForce3b = "D2104";
+        public const string CalibForce4b = "D2106";
+        public const string CalibForce5b = "D2108";
+        public const string CalibForce6b = "D2110";
+        public const string CalibForce7b = "D2112";
+        public const string CalibForce8b = "D2114";
+        public const string CalibForce9b = "D2116";
+        public const string CalibForce10b = "D2118";
+        public const string CalibForce11b = "D2120";
+        public const string CalibForce12b = "D2122";
+        public const string CalibForce13b = "D2124";
+        public const string CalibForce14b = "D2126";
+        public const string CalibForce15b = "D2128";
+        public const string CalibForce16b = "D2130";
+        public const string CalibForce17b = "D2132";
+        public const string CalibForce18b = "D2134";
+        public const string CalibForce19b = "D2136";
+        public const string CalibForce20b = "D2138";
+
+        public const string CalibVoltage1b = "D2150";
+        public const string CalibVoltage2b = "D2152";
+        public const string CalibVoltage3b = "D2154";
+        public const string CalibVoltage4b = "D2156";
+        public const string CalibVoltage5b = "D2158";
+        public const string CalibVoltage6b = "D2160";
+        public const string CalibVoltage7b = "D2162";
+        public const string CalibVoltage8b = "D2164";
+        public const string CalibVoltage9b = "D2166";
+        public const string CalibVoltage10b = "D2168";
+        public const string CalibVoltage11b = "D2170";
+        public const string CalibVoltage12b = "D2172";
+        public const string CalibVoltage13b = "D2174";
+        public const string CalibVoltage14b = "D2176";
+        public const string CalibVoltage15b = "D2178";
+        public const string CalibVoltage16b = "D2180";
+        public const string CalibVoltage17b = "D2182";
+        public const string CalibVoltage18b = "D2184";
+        public const string CalibVoltage19b = "D2186";
+        public const string CalibVoltage20b = "D2188";
+
+        public const string RecipeNum = "D2200";
+        public const string RecipePID = "D2202";
+        public const string OriginPos = "D2204";
+        public const string OriginVel = "D2206";
+        public const string StandbyPos = "D2208";
+        public const string StandbyVel = "D2210";
+        public const string StandbyTime = "D2212";
+
+        public const string Mode1 = "D2214";
+        public const string PressPos1 = "D2216";
+        public const string PressForce1 = "D2218";
+        public const string PressVel1 = "D2220";
+        public const string PressTime1 = "D2222";
+        public const string LimitType1 = "D2224";
+        public const string BeginMaxForceLimit1 = "D2226";
+        public const string BeginMinForceLimit1 = "D2228";
+        public const string EndMaxForceLimit1 = "D2230";
+        public const string EndMinForceLimit1 = "D2232";
+        public const string EndMaxPosLimit1 = "D2234";
+        public const string EndMinPosLimit1 = "D2236";
+
+        public const string Mode2 = "D2238";
+        public const string PressPos2 = "D2240";
+        public const string PressForce2 = "D2242";
+        public const string PressVel2 = "D2244";
+        public const string PressTime2 = "D2246";
+        public const string LimitType2 = "D2248";
+        public const string BeginMaxForceLimit2 = "D2250";
+        public const string BeginMinForceLimit2 = "D2252";
+        public const string EndMaxForceLimit2 = "D2254";
+        public const string EndMinForceLimit2 = "D2256";
+        public const string EndMaxPosLimit2 = "D2258";
+        public const string EndMinPosLimit2 = "D2260";
+
+        public const string Mode3 = "D2262";
+        public const string PressPos3 = "D2264";
+        public const string PressForce3 = "D2266";
+        public const string PressVel3 = "D2268";
+        public const string PressTime3 = "D2270";
+        public const string LimitType3 = "D2272";
+        public const string BeginMaxForceLimit3 = "D2274";
+        public const string BeginMinForceLimit3 = "D2276";
+        public const string EndMaxForceLimit3 = "D2278";
+        public const string EndMinForceLimit3 = "D2280";
+        public const string EndMaxPosLimit3 = "D2282";
+        public const string EndMinPosLimit3 = "D2284";
+
+        public const string Mode4 = "D2286";
+        public const string PressPos4 = "D2288";
+        public const string PressForce4 = "D2290";
+        public const string PressVel4 = "D2292";
+        public const string PressTime4 = "D2294";
+        public const string LimitType4 = "D2296";
+        public const string BeginMaxForceLimit4 = "D2298";
+        public const string BeginMinForceLimit4 = "D2300";
+        public const string EndMaxForceLimit4 = "D2302";
+        public const string EndMinForceLimit4 = "D2304";
+        public const string EndMaxPosLimit4 = "D2306";
+        public const string EndMinPosLimit4 = "D2308";
+
+        public const string Mode5 = "D2310";
+        public const string PressPos5 = "D2312";
+        public const string PressForce5 = "D2314";
+        public const string PressVel5 = "D2316";
+        public const string PressTime5 = "D2318";
+        public const string LimitType5 = "D2320";
+        public const string BeginMaxForceLimit5 = "D2322";
+        public const string BeginMinForceLimit5 = "D2324";
+        public const string EndMaxForceLimit5 = "D2326";
+        public const string EndMinForceLimit5 = "D2328";
+        public const string EndMaxPosLimit5 = "D2330";
+        public const string EndMinPosLimit5 = "D2332";
+
+        public const string Mode6 = "D2334";
+        public const string PressPos6 = "D2336";
+        public const string PressForce6 = "D2338";
+        public const string PressVel6 = "D2340";
+        public const string PressTime6 = "D2342";
+        public const string LimitType6 = "D2344";
+        public const string BeginMaxForceLimit6 = "D2346";
+        public const string BeginMinForceLimit6 = "D2348";
+        public const string EndMaxForceLimit6 = "D2350";
+        public const string EndMinForceLimit6 = "D2352";
+        public const string EndMaxPosLimit6 = "D2354";
+        public const string EndMinPosLimit6 = "D2356";
+
+        public const string Mode7 = "D2358";
+        public const string PressPos7 = "D2360";
+        public const string PressForce7 = "D2362";
+        public const string PressVel7 = "D2364";
+        public const string PressTime7 = "D2366";
+        public const string LimitType7 = "D2368";
+        public const string BeginMaxForceLimit7 = "D2370";
+        public const string BeginMinForceLimit7 = "D2372";
+        public const string EndMaxForceLimit7 = "D2374";
+        public const string EndMinForceLimit7 = "D2376";
+        public const string EndMaxPosLimit7 = "D2378";
+        public const string EndMinPosLimit7 = "D2380";
+
+        public const string Mode8 = "D2382";
+        public const string PressPos8 = "D2384";
+        public const string PressForce8 = "D2386";
+        public const string PressVel8 = "D2388";
+        public const string PressTime8 = "D2390";
+        public const string LimitType8 = "D2392";
+        public const string BeginMaxForceLimit8 = "D2394";
+        public const string BeginMinForceLimit8 = "D2396";
+        public const string EndMaxForceLimit8 = "D2398";
+        public const string EndMinForceLimit8 = "D2400";
+        public const string EndMaxPosLimit8 = "D2402";
+        public const string EndMinPosLimit8 = "D2404";
+
+        public const string Mode9 = "D2406";
+        public const string PressPos9 = "D2408";
+        public const string PressForce9 = "D2410";
+        public const string PressVel9 = "D2412";
+        public const string PressTime9 = "D2414";
+        public const string LimitType9 = "D2416";
+        public const string BeginMaxForceLimit9 = "D2418";
+        public const string BeginMinForceLimit9 = "D2420";
+        public const string EndMaxForceLimit9 = "D2422";
+        public const string EndMinForceLimit9 = "D2424";
+        public const string EndMaxPosLimit9 = "D2426";
+        public const string EndMinPosLimit9 = "D2428";
+
+        public const string Mode10 = "D2430";
+        public const string PressPos10 = "D2432";
+        public const string PressForce10 = "D2434";
+        public const string PressVel10 = "D2436";
+        public const string PressTime10 = "D2438";
+        public const string LimitType10 = "D2440";
+        public const string BeginMaxForceLimit10 = "D2442";
+        public const string BeginMinForceLimit10 = "D2444";
+        public const string EndMaxForceLimit10 = "D2446";
+        public const string EndMinForceLimit10 = "D2448";
+        public const string EndMaxPosLimit10 = "D2450";
+        public const string EndMinPosLimit10 = "D2452";
+
+        public const int RecipeA1 = 2200;
+        public const int RecipeA2 = 2286;
+        public const int RecipeA3 = 2382;
+        //斷電保持區END
+
+    }
+}
+*/

@@ -1,0 +1,765 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\servopressdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:servopressdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\scan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:scan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\machinetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:machinetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\sql.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:sql.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\modification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:modification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\basic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:basic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\resources\\serialnum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:resources\\serialnum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\lib\\system\\servopressinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:lib\\system\\servopressinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\lib\\system\\others.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:lib\\system\\others.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\lib\\system\\autosave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:lib\\system\\autosave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\lib\\constant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:lib\\constant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\lib\\manager\\statsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:lib\\manager\\statsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\lib\\manager\\motionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:lib\\manager\\motionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\lib\\manager\\motiondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:lib\\manager\\motiondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\lib\\manager\\livedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:lib\\manager\\livedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\lib\\manager\\chartmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:lib\\manager\\chartmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\lib\\manager\\chartdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:lib\\manager\\chartdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\lib\\data\\sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:lib\\data\\sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\lib\\data\\buffersort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:lib\\data\\buffersort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\lib\\connect\\ethernetclient(dvp).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:lib\\connect\\ethernetclient(dvp).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\basic.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:basic.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\lib\\connect\\usb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:lib\\connect\\usb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\lib\\connect\\register(dvp).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:lib\\connect\\register(dvp).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\lib\\connect\\register(as).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:lib\\connect\\register(as).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\lib\\connect\\newmbusclient(dvp).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:lib\\connect\\newmbusclient(dvp).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\lib\\connect\\plc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:lib\\connect\\plc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\lib\\connect\\ethernetclient(as).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:lib\\connect\\ethernetclient(as).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\lib\\connect\\ethernet_address(dvp).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:lib\\connect\\ethernet_address(dvp).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\lib\\connect\\ethernet_address(as).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:lib\\connect\\ethernet_address(as).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\lib\\connect\\bufferread(as).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:lib\\connect\\bufferread(as).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\lib\\connect\\bufferread(dvp).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:lib\\connect\\bufferread(dvp).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\lib\\connect\\a3_usb_link.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:lib\\connect\\a3_usb_link.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\exportfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:exportfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\recourcemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:recourcemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:426686534:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d84ee353-0bef-5a41-a649-8f89aca5d84d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServoPressDataSet.xsd",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\ServoPressDataSet.xsd",
+              "RelativeDocumentMoniker": "ServoPressDataSet.xsd",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\ServoPressDataSet.xsd",
+              "RelativeToolTip": "ServoPressDataSet.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2024-09-13T03:33:31.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MachineType.cs [Design]",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\MachineType.cs",
+              "RelativeDocumentMoniker": "MachineType.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\MachineType.cs [Design]",
+              "RelativeToolTip": "MachineType.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T03:32:16.453Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SQL.Designer.cs",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\SQL.Designer.cs",
+              "RelativeDocumentMoniker": "SQL.Designer.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\SQL.Designer.cs",
+              "RelativeToolTip": "SQL.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T03:32:08.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Basic.cs [Design]",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Basic.cs",
+              "RelativeDocumentMoniker": "Basic.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Basic.cs [Design]",
+              "RelativeToolTip": "Basic.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T03:31:07.839Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "About.cs [Design]",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\About.cs",
+              "RelativeDocumentMoniker": "About.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\About.cs [Design]",
+              "RelativeToolTip": "About.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T03:30:57.614Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SerialNum.cs",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Resources\\SerialNum.cs",
+              "RelativeDocumentMoniker": "Resources\\SerialNum.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Resources\\SerialNum.cs",
+              "RelativeToolTip": "Resources\\SerialNum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T03:30:32.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ServoPressInfor.cs",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\System\\ServoPressInfor.cs",
+              "RelativeDocumentMoniker": "Lib\\System\\ServoPressInfor.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\System\\ServoPressInfor.cs",
+              "RelativeToolTip": "Lib\\System\\ServoPressInfor.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T03:30:20.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Others.cs",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\System\\Others.cs",
+              "RelativeDocumentMoniker": "Lib\\System\\Others.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\System\\Others.cs",
+              "RelativeToolTip": "Lib\\System\\Others.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T03:30:14.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Modification.cs [Design]",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Modification.cs",
+              "RelativeDocumentMoniker": "Modification.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Modification.cs [Design]",
+              "RelativeToolTip": "Modification.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T02:27:58.847Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Scan.cs [Design]",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Scan.cs",
+              "RelativeDocumentMoniker": "Scan.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Scan.cs [Design]",
+              "RelativeToolTip": "Scan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T02:27:30.06Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AutoSave.cs",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\System\\AutoSave.cs",
+              "RelativeDocumentMoniker": "Lib\\System\\AutoSave.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\System\\AutoSave.cs",
+              "RelativeToolTip": "Lib\\System\\AutoSave.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T03:30:12.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Language.cs [Design]",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Language.cs",
+              "RelativeDocumentMoniker": "Language.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Language.cs [Design]",
+              "RelativeToolTip": "Language.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T02:28:00.431Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CONSTANT.cs",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\CONSTANT.cs",
+              "RelativeDocumentMoniker": "Lib\\CONSTANT.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\CONSTANT.cs",
+              "RelativeToolTip": "Lib\\CONSTANT.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T03:30:09.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SQL.cs [Design]",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\SQL.cs",
+              "RelativeDocumentMoniker": "SQL.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\SQL.cs [Design]",
+              "RelativeToolTip": "SQL.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T02:27:34.857Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StatsManager.cs",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Manager\\StatsManager.cs",
+              "RelativeDocumentMoniker": "Lib\\Manager\\StatsManager.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Manager\\StatsManager.cs",
+              "RelativeToolTip": "Lib\\Manager\\StatsManager.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T03:30:02.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Settings.cs",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Settings.cs",
+              "RelativeDocumentMoniker": "Settings.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Settings.cs",
+              "RelativeToolTip": "Settings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T02:34:21.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MotionManager.cs",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Manager\\MotionManager.cs",
+              "RelativeDocumentMoniker": "Lib\\Manager\\MotionManager.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Manager\\MotionManager.cs",
+              "RelativeToolTip": "Lib\\Manager\\MotionManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T03:30:01.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MotionData.cs",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Manager\\MotionData.cs",
+              "RelativeDocumentMoniker": "Lib\\Manager\\MotionData.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Manager\\MotionData.cs",
+              "RelativeToolTip": "Lib\\Manager\\MotionData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T03:30:00.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LiveData.cs",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Manager\\LiveData.cs",
+              "RelativeDocumentMoniker": "Lib\\Manager\\LiveData.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Manager\\LiveData.cs",
+              "RelativeToolTip": "Lib\\Manager\\LiveData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T03:29:58.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ChartManager.cs",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Manager\\ChartManager.cs",
+              "RelativeDocumentMoniker": "Lib\\Manager\\ChartManager.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Manager\\ChartManager.cs",
+              "RelativeToolTip": "Lib\\Manager\\ChartManager.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T03:29:55.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ChartData.cs",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Manager\\ChartData.cs",
+              "RelativeDocumentMoniker": "Lib\\Manager\\ChartData.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Manager\\ChartData.cs",
+              "RelativeToolTip": "Lib\\Manager\\ChartData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T03:29:53.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SQL.cs",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Data\\SQL.cs",
+              "RelativeDocumentMoniker": "Lib\\Data\\SQL.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Data\\SQL.cs",
+              "RelativeToolTip": "Lib\\Data\\SQL.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T03:29:28.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BufferSort.cs",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Data\\BufferSort.cs",
+              "RelativeDocumentMoniker": "Lib\\Data\\BufferSort.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Data\\BufferSort.cs",
+              "RelativeToolTip": "Lib\\Data\\BufferSort.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T03:29:27.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EthernetClient(DVP).cs",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Connect\\EthernetClient(DVP).cs",
+              "RelativeDocumentMoniker": "Lib\\Connect\\EthernetClient(DVP).cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Connect\\EthernetClient(DVP).cs",
+              "RelativeToolTip": "Lib\\Connect\\EthernetClient(DVP).cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T03:29:24.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Basic.Designer.cs",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Basic.Designer.cs",
+              "RelativeDocumentMoniker": "Basic.Designer.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Basic.Designer.cs",
+              "RelativeToolTip": "Basic.Designer.cs",
+              "ViewState": "AgIAAEABAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T02:36:36.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "USB.cs",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Connect\\USB.cs",
+              "RelativeDocumentMoniker": "Lib\\Connect\\USB.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Connect\\USB.cs",
+              "RelativeToolTip": "Lib\\Connect\\USB.cs",
+              "ViewState": "AgIAAMMAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T02:36:03.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Register(DVP).cs",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Connect\\Register(DVP).cs",
+              "RelativeDocumentMoniker": "Lib\\Connect\\Register(DVP).cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Connect\\Register(DVP).cs",
+              "RelativeToolTip": "Lib\\Connect\\Register(DVP).cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T02:36:03.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Register(AS).cs",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Connect\\Register(AS).cs",
+              "RelativeDocumentMoniker": "Lib\\Connect\\Register(AS).cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Connect\\Register(AS).cs",
+              "RelativeToolTip": "Lib\\Connect\\Register(AS).cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAAA2wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T02:35:52.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "NewMbusClient(DVP).cs",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Connect\\NewMbusClient(DVP).cs",
+              "RelativeDocumentMoniker": "Lib\\Connect\\NewMbusClient(DVP).cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Connect\\NewMbusClient(DVP).cs",
+              "RelativeToolTip": "Lib\\Connect\\NewMbusClient(DVP).cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T02:35:48.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PLC.cs",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Connect\\PLC.cs",
+              "RelativeDocumentMoniker": "Lib\\Connect\\PLC.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Connect\\PLC.cs",
+              "RelativeToolTip": "Lib\\Connect\\PLC.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T02:35:47.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "EthernetClient(AS).cs",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Connect\\EthernetClient(AS).cs",
+              "RelativeDocumentMoniker": "Lib\\Connect\\EthernetClient(AS).cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Connect\\EthernetClient(AS).cs",
+              "RelativeToolTip": "Lib\\Connect\\EthernetClient(AS).cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T02:35:42.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Ethernet_Address(DVP).cs",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Connect\\Ethernet_Address(DVP).cs",
+              "RelativeDocumentMoniker": "Lib\\Connect\\Ethernet_Address(DVP).cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Connect\\Ethernet_Address(DVP).cs",
+              "RelativeToolTip": "Lib\\Connect\\Ethernet_Address(DVP).cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T02:35:34.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Ethernet_Address(AS).cs",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Connect\\Ethernet_Address(AS).cs",
+              "RelativeDocumentMoniker": "Lib\\Connect\\Ethernet_Address(AS).cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Connect\\Ethernet_Address(AS).cs",
+              "RelativeToolTip": "Lib\\Connect\\Ethernet_Address(AS).cs",
+              "ViewState": "AgIAAMcBAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T02:34:55.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "BufferRead(AS).cs",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Connect\\BufferRead(AS).cs",
+              "RelativeDocumentMoniker": "Lib\\Connect\\BufferRead(AS).cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Connect\\BufferRead(AS).cs",
+              "RelativeToolTip": "Lib\\Connect\\BufferRead(AS).cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T02:34:44.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "BufferRead(DVP).cs",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Connect\\BufferRead(DVP).cs",
+              "RelativeDocumentMoniker": "Lib\\Connect\\BufferRead(DVP).cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Connect\\BufferRead(DVP).cs",
+              "RelativeToolTip": "Lib\\Connect\\BufferRead(DVP).cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T02:34:41.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "A3_Usb_Link.cs",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Connect\\A3_Usb_Link.cs",
+              "RelativeDocumentMoniker": "Lib\\Connect\\A3_Usb_Link.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Lib\\Connect\\A3_Usb_Link.cs",
+              "RelativeToolTip": "Lib\\Connect\\A3_Usb_Link.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T02:34:36.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T02:34:24.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Index.cs [Design]",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Index.cs",
+              "RelativeDocumentMoniker": "Index.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Index.cs [Design]",
+              "RelativeToolTip": "Index.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T02:28:51.166Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "RecourceManager.cs [Design - Japanese]",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\RecourceManager.cs",
+              "RelativeDocumentMoniker": "RecourceManager.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\RecourceManager.cs [Design - Japanese]",
+              "RelativeToolTip": "RecourceManager.cs [Design - Japanese]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T02:28:19.889Z",
+              "EditorCaption": " [Design - Japanese]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Management.cs [Design]",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Management.cs",
+              "RelativeDocumentMoniker": "Management.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Management.cs [Design]*",
+              "RelativeToolTip": "Management.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T02:27:52.127Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ExportFile.cs [Design]",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\ExportFile.cs",
+              "RelativeDocumentMoniker": "ExportFile.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\ExportFile.cs [Design]",
+              "RelativeToolTip": "ExportFile.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T02:27:47.92Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Function.cs [Design]",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Function.cs",
+              "RelativeDocumentMoniker": "Function.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Function.cs [Design]",
+              "RelativeToolTip": "Function.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T02:27:41.949Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Report.cs [Design]",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Report.cs",
+              "RelativeDocumentMoniker": "Report.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Report.cs [Design]",
+              "RelativeToolTip": "Report.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T02:27:23.105Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

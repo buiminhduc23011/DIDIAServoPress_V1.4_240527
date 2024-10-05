@@ -1,0 +1,172 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\modification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:modification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\exportfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:exportfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\scan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:scan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|g:\\my drive\\sti\\04.shiv12\\19.machine_bearing_presses\\diaservopress_v1.4_240527\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{28CB94E4-47D4-48E2-BAF1-106CA1A71E28}|DIAServoPress.csproj|solutionrelative:report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:426686534:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d84ee353-0bef-5a41-a649-8f89aca5d84d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Language.cs [Design]",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Language.cs",
+              "RelativeDocumentMoniker": "Language.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Language.cs [Design]",
+              "RelativeToolTip": "Language.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T02:28:00.431Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Modification.cs [Design]",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Modification.cs",
+              "RelativeDocumentMoniker": "Modification.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Modification.cs [Design]",
+              "RelativeToolTip": "Modification.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T02:27:58.847Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Management.cs [Design]",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Management.cs",
+              "RelativeDocumentMoniker": "Management.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Management.cs [Design]",
+              "RelativeToolTip": "Management.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T02:27:52.127Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExportFile.cs [Design]",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\ExportFile.cs",
+              "RelativeDocumentMoniker": "ExportFile.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\ExportFile.cs [Design]",
+              "RelativeToolTip": "ExportFile.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T02:27:47.92Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Function.cs [Design]",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Function.cs",
+              "RelativeDocumentMoniker": "Function.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Function.cs [Design]*",
+              "RelativeToolTip": "Function.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T02:27:41.949Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SQL.cs [Design]",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\SQL.cs",
+              "RelativeDocumentMoniker": "SQL.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\SQL.cs [Design]",
+              "RelativeToolTip": "SQL.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T02:27:34.857Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Scan.cs [Design]",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Scan.cs",
+              "RelativeDocumentMoniker": "Scan.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Scan.cs [Design]",
+              "RelativeToolTip": "Scan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T02:27:30.06Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Report.cs [Design]",
+              "DocumentMoniker": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Report.cs",
+              "RelativeDocumentMoniker": "Report.cs",
+              "ToolTip": "G:\\My Drive\\STI\\04.SHIV12\\19.Machine_Bearing_Presses\\DIAServoPress_V1.4_240527\\Report.cs [Design]*",
+              "RelativeToolTip": "Report.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T02:27:23.105Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,709 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AllFinished" xml:space="preserve">
+    <value>全部完了</value>
+  </data>
+  <data name="AtIni" xml:space="preserve">
+    <value>待機して</value>
+  </data>
+  <data name="Ave" xml:space="preserve">
+    <value>平均値</value>
+  </data>
+  <data name="BasicLimit" xml:space="preserve">
+    <value>基本制限</value>
+  </data>
+  <data name="BeginForce" xml:space="preserve">
+    <value>開始加圧力</value>
+  </data>
+  <data name="BeginMaxForce" xml:space="preserve">
+    <value>開始加圧力最大値</value>
+  </data>
+  <data name="BeginMaxForceLimitL" xml:space="preserve">
+    <value>開始加圧力最大値(lbf)</value>
+  </data>
+  <data name="BeginMaxForceLimitN" xml:space="preserve">
+    <value>開始加圧力最大値(N)</value>
+  </data>
+  <data name="BeginMaxForceLimitU" xml:space="preserve">
+    <value>開始加圧力最大値(kgf)</value>
+  </data>
+  <data name="BeginMinForce" xml:space="preserve">
+    <value>開始加圧力最小値</value>
+  </data>
+  <data name="BeginMinForceLimitL" xml:space="preserve">
+    <value>開始加圧力最小値(lbf)</value>
+  </data>
+  <data name="BeginMinForceLimitN" xml:space="preserve">
+    <value>開始加圧力最小値(N)</value>
+  </data>
+  <data name="BeginMinForceLimitU" xml:space="preserve">
+    <value>開始加圧力最小値(kgf)</value>
+  </data>
+  <data name="BeginPos" xml:space="preserve">
+    <value>開始位置</value>
+  </data>
+  <data name="BuzzOFF" xml:space="preserve">
+    <value>ブザーを消す</value>
+  </data>
+  <data name="BuzzON" xml:space="preserve">
+    <value>ブザーをオンにする</value>
+  </data>
+  <data name="ChangeWorkOrder" xml:space="preserve">
+    <value>生産合計はゼロにリセットされますが、作業指示書の交換は確定していますか?</value>
+  </data>
+  <data name="Chart" xml:space="preserve">
+    <value>チャートファイル</value>
+  </data>
+  <data name="ChartCsvErr" xml:space="preserve">
+    <value>別のプログラムがこのファイルを使用しています。そのプログラムを閉じてください</value>
+  </data>
+  <data name="chgWO" xml:space="preserve">
+    <value>作業指示を置き換える</value>
+  </data>
+  <data name="chgWOStr" xml:space="preserve">
+    <value>新しい作業指示書を置き換える:</value>
+  </data>
+  <data name="ConnectFailure" xml:space="preserve">
+    <value>接続に失敗しました</value>
+  </data>
+  <data name="Connecting" xml:space="preserve">
+    <value>接続中</value>
+  </data>
+  <data name="CreateDB" xml:space="preserve">
+    <value>データベースの作成</value>
+  </data>
+  <data name="CreateDBErr" xml:space="preserve">
+    <value>データベース作成エラー</value>
+  </data>
+  <data name="CreateDBOK" xml:space="preserve">
+    <value>データベースが作成されました！</value>
+  </data>
+  <data name="DBErrorStr" xml:space="preserve">
+    <value>データベース接続エラー</value>
+  </data>
+  <data name="DetEndPos" xml:space="preserve">
+    <value>限界位置</value>
+  </data>
+  <data name="DistMode" xml:space="preserve">
+    <value>距離モード</value>
+  </data>
+  <data name="Down" xml:space="preserve">
+    <value>スピンドルダウン</value>
+  </data>
+  <data name="DynamicForceLimit" xml:space="preserve">
+    <value>ダイナミック加圧力制限</value>
+  </data>
+  <data name="EndForce" xml:space="preserve">
+    <value>終了加圧力</value>
+  </data>
+  <data name="EndMaxForce" xml:space="preserve">
+    <value>終了加圧力最大值</value>
+  </data>
+  <data name="EndMinForce" xml:space="preserve">
+    <value>終了加圧力最小值</value>
+  </data>
+  <data name="EndPos" xml:space="preserve">
+    <value>終了位置</value>
+  </data>
+  <data name="Engineer" xml:space="preserve">
+    <value>エンジニア</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>間違い</value>
+  </data>
+  <data name="ExceedForceLimit" xml:space="preserve">
+    <value>圧力値が限界を超えています</value>
+  </data>
+  <data name="ExceedPosLimit" xml:space="preserve">
+    <value>モーター位置が制限を超えています</value>
+  </data>
+  <data name="FinishData" xml:space="preserve">
+    <value>必要事項をご記入ください</value>
+  </data>
+  <data name="Force" xml:space="preserve">
+    <value>加圧力</value>
+  </data>
+  <data name="ForceDistMode" xml:space="preserve">
+    <value>等加圧力距離モード</value>
+  </data>
+  <data name="ForceExceed" xml:space="preserve">
+    <value>加圧力が最大値を超えています:</value>
+  </data>
+  <data name="ForceL" xml:space="preserve">
+    <value>加圧力 (lbf)</value>
+  </data>
+  <data name="ForceLC" xml:space="preserve">
+    <value>加圧力 - lbf</value>
+  </data>
+  <data name="ForceLimitErr" xml:space="preserve">
+    <value>[最小加圧力] が [最大加圧力] より大きい</value>
+  </data>
+  <data name="ForceLimitL" xml:space="preserve">
+    <value>加圧力限界 (lbf)</value>
+  </data>
+  <data name="ForceLimitN" xml:space="preserve">
+    <value>加圧力限界 (N)</value>
+  </data>
+  <data name="ForceLimitU" xml:space="preserve">
+    <value>加圧力限界 (kgf)</value>
+  </data>
+  <data name="ForceLNG" xml:space="preserve">
+    <value>最大加圧力より大きい加圧力</value>
+  </data>
+  <data name="ForceMode" xml:space="preserve">
+    <value>加圧力モード</value>
+  </data>
+  <data name="ForceN" xml:space="preserve">
+    <value>加圧力 (N)</value>
+  </data>
+  <data name="ForceNC" xml:space="preserve">
+    <value>加圧力 - N</value>
+  </data>
+  <data name="ForcePosMode" xml:space="preserve">
+    <value>等加圧力位置モード</value>
+  </data>
+  <data name="ForceSNG" xml:space="preserve">
+    <value>加圧力が最小未満</value>
+  </data>
+  <data name="ForceU" xml:space="preserve">
+    <value>加圧力 (kgf)</value>
+  </data>
+  <data name="ForceUC" xml:space="preserve">
+    <value>加圧力 - kgf</value>
+  </data>
+  <data name="FrameLimit1" xml:space="preserve">
+    <value>方框限制 -1</value>
+  </data>
+  <data name="FrameLimit2" xml:space="preserve">
+    <value>方框限制 -2</value>
+  </data>
+  <data name="FrameLimit3" xml:space="preserve">
+    <value>方框限制 -3</value>
+  </data>
+  <data name="FrameLimit4" xml:space="preserve">
+    <value>方框限制 -4</value>
+  </data>
+  <data name="FrameLimit5" xml:space="preserve">
+    <value>方框限制 -5</value>
+  </data>
+  <data name="FrameLimit6" xml:space="preserve">
+    <value>方框限制 -6</value>
+  </data>
+  <data name="FrameLimit7" xml:space="preserve">
+    <value>方框限制 -7</value>
+  </data>
+  <data name="GoHome" xml:space="preserve">
+    <value>初期位置に戻る</value>
+  </data>
+  <data name="GoingHome" xml:space="preserve">
+    <value>原点復帰中</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>原点復帰</value>
+  </data>
+  <data name="ImportRecipe" xml:space="preserve">
+    <value>「起動」を無効にしてください</value>
+  </data>
+  <data name="InCablibration" xml:space="preserve">
+    <value>校正中</value>
+  </data>
+  <data name="IncompleteData" xml:space="preserve">
+    <value>不完全な情報</value>
+  </data>
+  <data name="Initialized" xml:space="preserve">
+    <value>初期化された</value>
+  </data>
+  <data name="Integer" xml:space="preserve">
+    <value>整数を入力してください!</value>
+  </data>
+  <data name="IOSignal" xml:space="preserve">
+    <value>I/O 信号</value>
+  </data>
+  <data name="Jump" xml:space="preserve">
+    <value>ジャンプ</value>
+  </data>
+  <data name="kgf" xml:space="preserve">
+    <value>kgf</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 15</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>テスト</value>
+  </data>
+  <data name="lbf" xml:space="preserve">
+    <value>lbf</value>
+  </data>
+  <data name="LiveForceL" xml:space="preserve">
+    <value>瞬時加圧力 (lbf)</value>
+  </data>
+  <data name="LiveForceN" xml:space="preserve">
+    <value>瞬時加圧力 (N)</value>
+  </data>
+  <data name="LiveForceU" xml:space="preserve">
+    <value>瞬時加圧力 (kgf)</value>
+  </data>
+  <data name="LiveRes" xml:space="preserve">
+    <value>インスタントプロセス結果</value>
+  </data>
+  <data name="LoadErr" xml:space="preserve">
+    <value>ファイルエラー！</value>
+  </data>
+  <data name="LowerLimit" xml:space="preserve">
+    <value>最小値</value>
+  </data>
+  <data name="MaxForceLimit" xml:space="preserve">
+    <value>加圧力最大値</value>
+  </data>
+  <data name="MaxForceLimitL" xml:space="preserve">
+    <value>加圧力最大値(lbf)</value>
+  </data>
+  <data name="MaxForceLimitN" xml:space="preserve">
+    <value>加圧力最大値N)</value>
+  </data>
+  <data name="MaxForceLimitU" xml:space="preserve">
+    <value>加圧力最大値(kgf)</value>
+  </data>
+  <data name="MaxPosLimit" xml:space="preserve">
+    <value>位置最大値</value>
+  </data>
+  <data name="MaxPosLimitU" xml:space="preserve">
+    <value>位置最大値(mm)</value>
+  </data>
+  <data name="MeasureResult" xml:space="preserve">
+    <value>測定結果</value>
+  </data>
+  <data name="Mid" xml:space="preserve">
+    <value>中央値</value>
+  </data>
+  <data name="minForceLimit" xml:space="preserve">
+    <value>加圧力最小値</value>
+  </data>
+  <data name="minForceLimitL" xml:space="preserve">
+    <value>加圧力最小値(lbf)</value>
+  </data>
+  <data name="minForceLimitN" xml:space="preserve">
+    <value>加圧力最小値(N)</value>
+  </data>
+  <data name="minForceLimitU" xml:space="preserve">
+    <value>加圧力最小値(kgf)</value>
+  </data>
+  <data name="minPosLimit" xml:space="preserve">
+    <value>加圧力最小値</value>
+  </data>
+  <data name="minPosLimitU" xml:space="preserve">
+    <value>加圧力最小値(mm)</value>
+  </data>
+  <data name="Motionless" xml:space="preserve">
+    <value>移動しない</value>
+  </data>
+  <data name="MotionWarn" xml:space="preserve">
+    <value>スピンドルが移動しようとしています。担当者の安全を確認してください</value>
+  </data>
+  <data name="N" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="NG" xml:space="preserve">
+    <value>不良品数</value>
+  </data>
+  <data name="NoKey" xml:space="preserve">
+    <value>全く許可しません</value>
+  </data>
+  <data name="NoLimit" xml:space="preserve">
+    <value>なし</value>
+  </data>
+  <data name="NotLarger" xml:space="preserve">
+    <value>以下</value>
+  </data>
+  <data name="Num" xml:space="preserve">
+    <value>シリアルナンバー</value>
+  </data>
+  <data name="OFF" xml:space="preserve">
+    <value>未起動</value>
+  </data>
+  <data name="Offline" xml:space="preserve">
+    <value>オフライン</value>
+  </data>
+  <data name="OffSys" xml:space="preserve">
+    <value>システムのシャットダウン</value>
+  </data>
+  <data name="OffSysStr" xml:space="preserve">
+    <value>ウィンドウを閉じてよろしいですか?</value>
+  </data>
+  <data name="ON" xml:space="preserve">
+    <value>起動</value>
+  </data>
+  <data name="OP" xml:space="preserve">
+    <value>作業者</value>
+  </data>
+  <data name="OriginPosU" xml:space="preserve">
+    <value>作業原点(mm)</value>
+  </data>
+  <data name="OriginVelU" xml:space="preserve">
+    <value>原点速度</value>
+  </data>
+  <data name="OutputSignal" xml:space="preserve">
+    <value>アウトプット信号</value>
+  </data>
+  <data name="Pass" xml:space="preserve">
+    <value>良品数</value>
+  </data>
+  <data name="PDFErr" xml:space="preserve">
+    <value>PDFファイルを開くことができません</value>
+  </data>
+  <data name="Pos" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="PosExceed" xml:space="preserve">
+    <value>位置が最大値を超えています:</value>
+  </data>
+  <data name="PosLimitErr" xml:space="preserve">
+    <value>[位置最小值] が [位置最大值] より大きい</value>
+  </data>
+  <data name="PosLNG" xml:space="preserve">
+    <value>位置が最大より大きい</value>
+  </data>
+  <data name="PosMode" xml:space="preserve">
+    <value>位置モード</value>
+  </data>
+  <data name="PosSNG" xml:space="preserve">
+    <value>位置が最小未満</value>
+  </data>
+  <data name="PosU" xml:space="preserve">
+    <value>位置(mm)</value>
+  </data>
+  <data name="PosUC" xml:space="preserve">
+    <value>位置 - mm</value>
+  </data>
+  <data name="PressDist" xml:space="preserve">
+    <value>圧入距離</value>
+  </data>
+  <data name="PressForce" xml:space="preserve">
+    <value>成型加圧力</value>
+  </data>
+  <data name="PressForceL" xml:space="preserve">
+    <value>成型加圧力(lbf)</value>
+  </data>
+  <data name="PressForceN" xml:space="preserve">
+    <value>成型加圧力(N)</value>
+  </data>
+  <data name="PressForceU" xml:space="preserve">
+    <value>成型加圧力(kgf)</value>
+  </data>
+  <data name="Pressing" xml:space="preserve">
+    <value>加圧動作</value>
+  </data>
+  <data name="PressMode" xml:space="preserve">
+    <value>加圧条件</value>
+  </data>
+  <data name="PressPos" xml:space="preserve">
+    <value>成型位置</value>
+  </data>
+  <data name="PressPosU" xml:space="preserve">
+    <value>成型位置(mm)</value>
+  </data>
+  <data name="PressTimeU" xml:space="preserve">
+    <value>成型時間</value>
+  </data>
+  <data name="PressVel" xml:space="preserve">
+    <value>加圧速度</value>
+  </data>
+  <data name="PressVelU" xml:space="preserve">
+    <value>加圧速度(mm/s)</value>
+  </data>
+  <data name="ProductTimeU" xml:space="preserve">
+    <value>生產時間(s)</value>
+  </data>
+  <data name="PWChg" xml:space="preserve">
+    <value>パスワード変更済み</value>
+  </data>
+  <data name="PWChgStr" xml:space="preserve">
+    <value>パスワードは正常に変更されました！</value>
+  </data>
+  <data name="PWErr" xml:space="preserve">
+    <value>間違ったパスワード</value>
+  </data>
+  <data name="PWErrStr" xml:space="preserve">
+    <value>パスワードエラーです。パスワードを再入力してください</value>
+  </data>
+  <data name="PWErrStr1" xml:space="preserve">
+    <value>元のパスワードが正しく入力されていません</value>
+  </data>
+  <data name="PWInc" xml:space="preserve">
+    <value>パスワードが一致していません</value>
+  </data>
+  <data name="PWIncStr" xml:space="preserve">
+    <value>入力した 2 つのパスワードが一致していることを確認してください</value>
+  </data>
+  <data name="ReachedSignal" xml:space="preserve">
+    <value>圧入信号</value>
+  </data>
+  <data name="ReadExcel" xml:space="preserve">
+    <value>外部 Excel を読み取る</value>
+  </data>
+  <data name="ReadFinished" xml:space="preserve">
+    <value>読み取りが完了しました。レシピを選択してください</value>
+  </data>
+  <data name="Reading" xml:space="preserve">
+    <value>読込中.....</value>
+  </data>
+  <data name="ReadResultFileError" xml:space="preserve">
+    <value>ファイル形式の読み込みエラー</value>
+  </data>
+  <data name="RecipeName" xml:space="preserve">
+    <value>レシピ名</value>
+  </data>
+  <data name="Release" xml:space="preserve">
+    <value>持ち上げた</value>
+  </data>
+  <data name="RequireLarger" xml:space="preserve">
+    <value>] より大きい必要があります [</value>
+  </data>
+  <data name="Restart" xml:space="preserve">
+    <value>DIAServoPressを再起動してください</value>
+  </data>
+  <data name="ResultReport" xml:space="preserve">
+    <value>結果報告</value>
+  </data>
+  <data name="SaveOk" xml:space="preserve">
+    <value>アーカイブ完了</value>
+  </data>
+  <data name="ScaleErr" xml:space="preserve">
+    <value>軸設定エラー</value>
+  </data>
+  <data name="Scan" xml:space="preserve">
+    <value>スキャン</value>
+  </data>
+  <data name="ScanErrStr" xml:space="preserve">
+    <value>マシン検索エラー!</value>
+  </data>
+  <data name="ScanOKStr" xml:space="preserve">
+    <value>スキャン完了</value>
+  </data>
+  <data name="ScanString" xml:space="preserve">
+    <value>マシンスキャンを実行しますか?</value>
+  </data>
+  <data name="SettingErr" xml:space="preserve">
+    <value>設定ミス</value>
+  </data>
+  <data name="SignalMode" xml:space="preserve">
+    <value>信号モード</value>
+  </data>
+  <data name="SingleFinished" xml:space="preserve">
+    <value>ワンポイントコンプリート</value>
+  </data>
+  <data name="Slope" xml:space="preserve">
+    <value>スロープ</value>
+  </data>
+  <data name="SlopeMode" xml:space="preserve">
+    <value>スロープモード</value>
+  </data>
+  <data name="SQLError" xml:space="preserve">
+    <value>間違い</value>
+  </data>
+  <data name="SQLErrorStr" xml:space="preserve">
+    <value>データベースに接続できません</value>
+  </data>
+  <data name="StandbyPos" xml:space="preserve">
+    <value>準備位置</value>
+  </data>
+  <data name="StandbyPosU" xml:space="preserve">
+    <value>準備位置(mm)</value>
+  </data>
+  <data name="StandbyTimeU" xml:space="preserve">
+    <value>準備時間 (s)</value>
+  </data>
+  <data name="StandbyVelU" xml:space="preserve">
+    <value>準備速度 (mm/s)</value>
+  </data>
+  <data name="StartCalibrate" xml:space="preserve">
+    <value>校正開始</value>
+  </data>
+  <data name="Std" xml:space="preserve">
+    <value>標準偏差</value>
+  </data>
+  <data name="Step" xml:space="preserve">
+    <value>ステップシーケンス</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>時間</value>
+  </data>
+  <data name="TimeU" xml:space="preserve">
+    <value>時間(s)</value>
+  </data>
+  <data name="TimeUC" xml:space="preserve">
+    <value>時間 - s</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>総生産量</value>
+  </data>
+  <data name="TurnOn" xml:space="preserve">
+    <value>起動</value>
+  </data>
+  <data name="Unfinished" xml:space="preserve">
+    <value>元に戻す</value>
+  </data>
+  <data name="Uninitialized" xml:space="preserve">
+    <value>初期化されていない</value>
+  </data>
+  <data name="UnON" xml:space="preserve">
+    <value>未起動</value>
+  </data>
+  <data name="UnSave" xml:space="preserve">
+    <value>まだアーカイブされていません</value>
+  </data>
+  <data name="UnSaveStr" xml:space="preserve">
+    <value>この作業指示書はまだアーカイブされていません。作業指示書を置き換えてもよろしいですか?</value>
+  </data>
+  <data name="UpperLimit" xml:space="preserve">
+    <value>最大値</value>
+  </data>
+  <data name="UserChange" xml:space="preserve">
+    <value>ユーザーの変更</value>
+  </data>
+  <data name="UserChangeStr" xml:space="preserve">
+    <value>ユーザーが正常に変更されました!</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>判定値</value>
+  </data>
+  <data name="ValueErr" xml:space="preserve">
+    <value>数値エラー</value>
+  </data>
+  <data name="ValueErrStr" xml:space="preserve">
+    <value>整数を入力してください!</value>
+  </data>
+  <data name="Vel" xml:space="preserve">
+    <value>速度</value>
+  </data>
+  <data name="VelU" xml:space="preserve">
+    <value>速度(mm/s)</value>
+  </data>
+  <data name="VelUC" xml:space="preserve">
+    <value>速度 - mm/s</value>
+  </data>
+  <data name="WorkOrder" xml:space="preserve">
+    <value>バーコード</value>
+  </data>
+  <data name="Zero" xml:space="preserve">
+    <value>生産合計がゼロになる？</value>
+  </data>
+</root>

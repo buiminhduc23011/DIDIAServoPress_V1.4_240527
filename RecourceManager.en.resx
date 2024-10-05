@@ -1,0 +1,715 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AllFinished" xml:space="preserve">
+    <value>All Finished</value>
+  </data>
+  <data name="AtIni" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="Ave" xml:space="preserve">
+    <value>Ave.</value>
+  </data>
+  <data name="BuzzOFF" xml:space="preserve">
+    <value>Buzz Off</value>
+  </data>
+  <data name="BuzzON" xml:space="preserve">
+    <value>Buzz On</value>
+  </data>
+  <data name="ChangeWorkOrder" xml:space="preserve">
+    <value>Product amount will be reset, are you sure to change the work order?</value>
+  </data>
+  <data name="Chart" xml:space="preserve">
+    <value>Chart File</value>
+  </data>
+  <data name="chgWO" xml:space="preserve">
+    <value>Change Work Order</value>
+  </data>
+  <data name="chgWOStr" xml:space="preserve">
+    <value>Change New Work Order:</value>
+  </data>
+  <data name="ConnectFailure" xml:space="preserve">
+    <value>Connect Failure</value>
+  </data>
+  <data name="Connecting" xml:space="preserve">
+    <value>Connecting</value>
+  </data>
+  <data name="CreateDB" xml:space="preserve">
+    <value>Create Database</value>
+  </data>
+  <data name="CreateDBErr" xml:space="preserve">
+    <value>Create Database Error</value>
+  </data>
+  <data name="CreateDBOK" xml:space="preserve">
+    <value>Create Database Successfully!</value>
+  </data>
+  <data name="DBErrorStr" xml:space="preserve">
+    <value>Connection Error</value>
+  </data>
+  <data name="DetEndPos" xml:space="preserve">
+    <value>Limit Pos.</value>
+  </data>
+  <data name="DistMode" xml:space="preserve">
+    <value>Distance</value>
+  </data>
+  <data name="Down" xml:space="preserve">
+    <value>Moving Down</value>
+  </data>
+  <data name="Engineer" xml:space="preserve">
+    <value>Engineer</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="ExceedForceLimit" xml:space="preserve">
+    <value>Force Exceeds Limit</value>
+  </data>
+  <data name="ExceedPosLimit" xml:space="preserve">
+    <value>Position Exceeds Limit</value>
+  </data>
+  <data name="FinishData" xml:space="preserve">
+    <value>Please enter the required parameters</value>
+  </data>
+  <data name="Force" xml:space="preserve">
+    <value>Force</value>
+  </data>
+  <data name="ForceDistMode" xml:space="preserve">
+    <value>Force Distance</value>
+  </data>
+  <data name="ForceExceed" xml:space="preserve">
+    <value>The force larger than max value</value>
+  </data>
+  <data name="ForceL" xml:space="preserve">
+    <value>Force(lbf)</value>
+  </data>
+  <data name="ForceLimitErr" xml:space="preserve">
+    <value>[Min Force] larger than [Max Force]</value>
+  </data>
+  <data name="ForceLimitL" xml:space="preserve">
+    <value>Force Limit(lbf)</value>
+  </data>
+  <data name="ForceLimitN" xml:space="preserve">
+    <value>Force Limit(N)</value>
+  </data>
+  <data name="ForceLimitU" xml:space="preserve">
+    <value>Force Limit(kgf)</value>
+  </data>
+  <data name="ForceLNG" xml:space="preserve">
+    <value>Force is larger than the Max Limit</value>
+  </data>
+  <data name="ForceMode" xml:space="preserve">
+    <value>Force</value>
+  </data>
+  <data name="ForceN" xml:space="preserve">
+    <value>Force(N)</value>
+  </data>
+  <data name="ForcePosMode" xml:space="preserve">
+    <value>Force Position</value>
+  </data>
+  <data name="ForceSNG" xml:space="preserve">
+    <value>Force is smaller than the Min Limit</value>
+  </data>
+  <data name="ForceU" xml:space="preserve">
+    <value>Force(kgf)</value>
+  </data>
+  <data name="GoHome" xml:space="preserve">
+    <value>Going Back </value>
+  </data>
+  <data name="GoingHome" xml:space="preserve">
+    <value>Going Home</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="ImportRecipe" xml:space="preserve">
+    <value>Please release "On"</value>
+  </data>
+  <data name="InCablibration" xml:space="preserve">
+    <value>Calibrating</value>
+  </data>
+  <data name="IncompleteData" xml:space="preserve">
+    <value>Incompleted</value>
+  </data>
+  <data name="Initialized" xml:space="preserve">
+    <value>Initialized</value>
+  </data>
+  <data name="Integer" xml:space="preserve">
+    <value>Please enter an integer!</value>
+  </data>
+  <data name="kgf" xml:space="preserve">
+    <value>kgf</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 12</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="lbf" xml:space="preserve">
+    <value>lbf</value>
+  </data>
+  <data name="LiveForceL" xml:space="preserve">
+    <value>Force(lbf)</value>
+  </data>
+  <data name="LiveForceN" xml:space="preserve">
+    <value>Force(N)</value>
+  </data>
+  <data name="LiveForceU" xml:space="preserve">
+    <value>Force(kgf)</value>
+  </data>
+  <data name="LiveRes" xml:space="preserve">
+    <value>Live Results</value>
+  </data>
+  <data name="LoadErr" xml:space="preserve">
+    <value>Load Error!</value>
+  </data>
+  <data name="LowerLimit" xml:space="preserve">
+    <value>Min Limit</value>
+  </data>
+  <data name="MaxForceLimit" xml:space="preserve">
+    <value>Max Force</value>
+  </data>
+  <data name="MaxForceLimitL" xml:space="preserve">
+    <value>Max Force(lbf)</value>
+  </data>
+  <data name="MaxForceLimitN" xml:space="preserve">
+    <value>Max Force(N)</value>
+  </data>
+  <data name="MaxForceLimitU" xml:space="preserve">
+    <value>Max Force(kgf)</value>
+  </data>
+  <data name="MaxPosLimit" xml:space="preserve">
+    <value>Max Position </value>
+  </data>
+  <data name="MaxPosLimitU" xml:space="preserve">
+    <value>Max Position(mm)</value>
+  </data>
+  <data name="MeasureResult" xml:space="preserve">
+    <value>Measure Result</value>
+  </data>
+  <data name="Mid" xml:space="preserve">
+    <value>Mid</value>
+  </data>
+  <data name="minForceLimit" xml:space="preserve">
+    <value>Min Force</value>
+  </data>
+  <data name="minForceLimitL" xml:space="preserve">
+    <value>Min Force(lbf)</value>
+  </data>
+  <data name="minForceLimitN" xml:space="preserve">
+    <value>Min Force(N)</value>
+  </data>
+  <data name="minForceLimitU" xml:space="preserve">
+    <value>Min Force(kgf)</value>
+  </data>
+  <data name="minPosLimit" xml:space="preserve">
+    <value>Min Position</value>
+  </data>
+  <data name="minPosLimitU" xml:space="preserve">
+    <value>Min Position(mm)</value>
+  </data>
+  <data name="Motionless" xml:space="preserve">
+    <value>Motionless</value>
+  </data>
+  <data name="MotionWarn" xml:space="preserve">
+    <value>Motion will start, please check the safety status</value>
+  </data>
+  <data name="N" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="NG" xml:space="preserve">
+    <value>NG</value>
+  </data>
+  <data name="Num" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="OFF" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="Offline" xml:space="preserve">
+    <value>Offline</value>
+  </data>
+  <data name="OffSys" xml:space="preserve">
+    <value>Close System</value>
+  </data>
+  <data name="OffSysStr" xml:space="preserve">
+    <value>Are you sure to close the window?</value>
+  </data>
+  <data name="ON" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="OP" xml:space="preserve">
+    <value>OP</value>
+  </data>
+  <data name="OriginPosU" xml:space="preserve">
+    <value>Origin Position(mm)</value>
+  </data>
+  <data name="OriginVelU" xml:space="preserve">
+    <value>Origin Velocity(mm/s)</value>
+  </data>
+  <data name="Pass" xml:space="preserve">
+    <value>Pass</value>
+  </data>
+  <data name="PDFErr" xml:space="preserve">
+    <value>Can NOT open the PDF file</value>
+  </data>
+  <data name="Pos" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="PosExceed" xml:space="preserve">
+    <value>The position larger than max value</value>
+  </data>
+  <data name="PosLimitErr" xml:space="preserve">
+    <value>[Min Position] larger than [Max Position]</value>
+  </data>
+  <data name="PosLNG" xml:space="preserve">
+    <value>Position is larger than the Max Limit </value>
+  </data>
+  <data name="PosMode" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="PosSNG" xml:space="preserve">
+    <value>Position is smaller than the Min Limit </value>
+  </data>
+  <data name="PosU" xml:space="preserve">
+    <value>Position(mm)</value>
+  </data>
+  <data name="PressDist" xml:space="preserve">
+    <value>Press Dist.</value>
+  </data>
+  <data name="PressForce" xml:space="preserve">
+    <value>Pressing Force</value>
+  </data>
+  <data name="PressForceL" xml:space="preserve">
+    <value>Pressing Force(lbf)</value>
+  </data>
+  <data name="PressForceN" xml:space="preserve">
+    <value>Pressing Force(N)</value>
+  </data>
+  <data name="PressForceU" xml:space="preserve">
+    <value>Pressing Force(kgf)</value>
+  </data>
+  <data name="Pressing" xml:space="preserve">
+    <value>Pressing</value>
+  </data>
+  <data name="PressMode" xml:space="preserve">
+    <value>Pressing Mode</value>
+  </data>
+  <data name="PressPos" xml:space="preserve">
+    <value>Press Pos.</value>
+  </data>
+  <data name="PressPosU" xml:space="preserve">
+    <value>Position(mm)</value>
+  </data>
+  <data name="PressTimeU" xml:space="preserve">
+    <value>PressingTime(s)</value>
+  </data>
+  <data name="PressVel" xml:space="preserve">
+    <value>Pressing Velocity</value>
+  </data>
+  <data name="PressVelU" xml:space="preserve">
+    <value>Pressing Velocity(mm/s)</value>
+  </data>
+  <data name="ProductTimeU" xml:space="preserve">
+    <value>Production Time(s)</value>
+  </data>
+  <data name="PutOn" xml:space="preserve">
+    <value>Please "On" </value>
+  </data>
+  <data name="PWChg" xml:space="preserve">
+    <value>Password Changed</value>
+  </data>
+  <data name="PWChgStr" xml:space="preserve">
+    <value>Password Changed Sucessfully</value>
+  </data>
+  <data name="PWErr" xml:space="preserve">
+    <value>Password Incorrect</value>
+  </data>
+  <data name="PWErrStr" xml:space="preserve">
+    <value>Password Incorrect, Please re-enter the password</value>
+  </data>
+  <data name="PWErrStr1" xml:space="preserve">
+    <value>The current password incorrect</value>
+  </data>
+  <data name="PWInc" xml:space="preserve">
+    <value>Password Inconsistent</value>
+  </data>
+  <data name="PWIncStr" xml:space="preserve">
+    <value>Make the password and re-enter password are consistent</value>
+  </data>
+  <data name="ReadExcel" xml:space="preserve">
+    <value>Read Excel</value>
+  </data>
+  <data name="ReadFinished" xml:space="preserve">
+    <value>Read finished, please choose the recipe</value>
+  </data>
+  <data name="Reading" xml:space="preserve">
+    <value>Reading…</value>
+  </data>
+  <data name="RecipeName" xml:space="preserve">
+    <value>Recipe Name</value>
+  </data>
+  <data name="Release" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="RequireLarger" xml:space="preserve">
+    <value>] require larger than [</value>
+  </data>
+  <data name="Restart" xml:space="preserve">
+    <value>Please restart the DIAServoPress</value>
+  </data>
+  <data name="ResultReport" xml:space="preserve">
+    <value>Result Report</value>
+  </data>
+  <data name="SaveOk" xml:space="preserve">
+    <value>Save Sucessfully</value>
+  </data>
+  <data name="ScaleErr" xml:space="preserve">
+    <value>Scale Setting Error</value>
+  </data>
+  <data name="Scan" xml:space="preserve">
+    <value>Scan</value>
+  </data>
+  <data name="ScanErrStr" xml:space="preserve">
+    <value>Scan Error!</value>
+  </data>
+  <data name="ScanOKStr" xml:space="preserve">
+    <value>Scan Finished!</value>
+  </data>
+  <data name="ScanString" xml:space="preserve">
+    <value>To scan the Servo Press?</value>
+  </data>
+  <data name="SettingErr" xml:space="preserve">
+    <value>Setting Error</value>
+  </data>
+  <data name="SingleFinished" xml:space="preserve">
+    <value>Single Finished</value>
+  </data>
+  <data name="SQLError" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="SQLErrorStr" xml:space="preserve">
+    <value>Can not connect to the SQL Server</value>
+  </data>
+  <data name="StandbyPos" xml:space="preserve">
+    <value>Standby Position</value>
+  </data>
+  <data name="StandbyPosU" xml:space="preserve">
+    <value>Standby Position(mm)</value>
+  </data>
+  <data name="StandbyTimeU" xml:space="preserve">
+    <value>Standby Time(s)</value>
+  </data>
+  <data name="StandbyVelU" xml:space="preserve">
+    <value>Standby Velocity(mm/s)</value>
+  </data>
+  <data name="StartCalibrate" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="Std" xml:space="preserve">
+    <value>Std.</value>
+  </data>
+  <data name="Step" xml:space="preserve">
+    <value>Step</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="TimeU" xml:space="preserve">
+    <value>Time(s)</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="TurnOn" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="Unfinished" xml:space="preserve">
+    <value>Unfinished</value>
+  </data>
+  <data name="Uninitialized" xml:space="preserve">
+    <value>Uninitialized</value>
+  </data>
+  <data name="UnON" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="UnSave" xml:space="preserve">
+    <value>Unsaved</value>
+  </data>
+  <data name="UnSaveStr" xml:space="preserve">
+    <value>The record hasn't been saved. Still want to  change the work order?</value>
+  </data>
+  <data name="UpperLimit" xml:space="preserve">
+    <value>Max Limit</value>
+  </data>
+  <data name="UserChange" xml:space="preserve">
+    <value>User Changed</value>
+  </data>
+  <data name="UserChangeStr" xml:space="preserve">
+    <value>User Changed Sucessfully!</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="ValueErr" xml:space="preserve">
+    <value>Incorrect Value</value>
+  </data>
+  <data name="ValueErrStr" xml:space="preserve">
+    <value>Please enter an integer!</value>
+  </data>
+  <data name="Vel" xml:space="preserve">
+    <value>Velocity</value>
+  </data>
+  <data name="VelU" xml:space="preserve">
+    <value>Velocity(mm/s)</value>
+  </data>
+  <data name="WorkOrder" xml:space="preserve">
+    <value>Work Order</value>
+  </data>
+  <data name="Zero" xml:space="preserve">
+    <value>Total production return to zero?</value>
+  </data>
+  <data name="ReadResultFileError" xml:space="preserve">
+    <value>Import file format error</value>
+  </data>
+  <data name="S" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Jump" xml:space="preserve">
+    <value>Jump</value>
+  </data>
+  <data name="OutputSignal" xml:space="preserve">
+    <value>Output Signal</value>
+  </data>
+  <data name="ReachedSignal" xml:space="preserve">
+    <value>Reached Signal</value>
+  </data>
+  <data name="SignalMode" xml:space="preserve">
+    <value>Signal Mode</value>
+  </data>
+  <data name="Slope" xml:space="preserve">
+    <value>Slope</value>
+  </data>
+  <data name="SlopeMode" xml:space="preserve">
+    <value>Slope Mode </value>
+  </data>
+  <data name="IOSignal" xml:space="preserve">
+    <value>I/O Signal</value>
+  </data>
+  <data name="BeginMaxForceLimitL" xml:space="preserve">
+    <value>Begin Max Force(lbf)</value>
+  </data>
+  <data name="BeginMaxForceLimitN" xml:space="preserve">
+    <value>Begin Max Force(N)</value>
+  </data>
+  <data name="BeginMaxForceLimitU" xml:space="preserve">
+    <value>Begin Max Force(kgf)</value>
+  </data>
+  <data name="BeginMinForceLimitL" xml:space="preserve">
+    <value>Begin Min Force(lbf)</value>
+  </data>
+  <data name="BeginMinForceLimitN" xml:space="preserve">
+    <value>Begin Min Force(N)</value>
+  </data>
+  <data name="BeginMinForceLimitU" xml:space="preserve">
+    <value>Begin Min Force(kgf)</value>
+  </data>
+  <data name="DynamicForceLimit" xml:space="preserve">
+    <value>Dyn. Force Limit</value>
+  </data>
+  <data name="NotLarger" xml:space="preserve">
+    <value>can't larger than </value>
+  </data>
+  <data name="ForceLC" xml:space="preserve">
+    <value>Force - lbf</value>
+  </data>
+  <data name="ForceNC" xml:space="preserve">
+    <value>Force - N</value>
+  </data>
+  <data name="ForceUC" xml:space="preserve">
+    <value>Force - kgf</value>
+  </data>
+  <data name="PosUC" xml:space="preserve">
+    <value>Position - mm</value>
+  </data>
+  <data name="TimeUC" xml:space="preserve">
+    <value>Time - s</value>
+  </data>
+  <data name="VelUC" xml:space="preserve">
+    <value>Velocity - mm/s</value>
+  </data>
+  <data name="ChartCsvErr" xml:space="preserve">
+    <value>The file is opened by another program, please close the program.</value>
+  </data>
+  <data name="BeginForce" xml:space="preserve">
+    <value>Begin Force</value>
+  </data>
+  <data name="BeginMaxForce" xml:space="preserve">
+    <value>Begin Max Force</value>
+  </data>
+  <data name="BeginMinForce" xml:space="preserve">
+    <value>Begin Min Force</value>
+  </data>
+  <data name="BeginPos" xml:space="preserve">
+    <value>Begin Position</value>
+  </data>
+  <data name="EndForce" xml:space="preserve">
+    <value>End Force</value>
+  </data>
+  <data name="EndMaxForce" xml:space="preserve">
+    <value>End Max Force</value>
+  </data>
+  <data name="EndMinForce" xml:space="preserve">
+    <value>End Min Force</value>
+  </data>
+  <data name="EndPos" xml:space="preserve">
+    <value>End Position</value>
+  </data>
+  <data name="BasicLimit" xml:space="preserve">
+    <value>Basic Limit</value>
+  </data>
+  <data name="FrameLimit1" xml:space="preserve">
+    <value>Frame Limit-1</value>
+  </data>
+  <data name="FrameLimit2" xml:space="preserve">
+    <value>Frame Limit-2</value>
+  </data>
+  <data name="FrameLimit3" xml:space="preserve">
+    <value>Frame Limit-3</value>
+  </data>
+  <data name="FrameLimit4" xml:space="preserve">
+    <value>Frame Limit-4</value>
+  </data>
+  <data name="FrameLimit5" xml:space="preserve">
+    <value>Frame Limit-5</value>
+  </data>
+  <data name="FrameLimit6" xml:space="preserve">
+    <value>Frame Limit-6</value>
+  </data>
+  <data name="FrameLimit7" xml:space="preserve">
+    <value>Frame Limit-7</value>
+  </data>
+  <data name="NoLimit" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="NoKey" xml:space="preserve">
+    <value>No Key</value>
+  </data>
+</root>
